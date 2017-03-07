@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Kwon11/portfolio3/issues"
   },
-  "homepage": "https://github.com/Kwon11/portfolio3#readme"
+  "homepage": "https://github.com/Kwon11/portfolio3#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
 }

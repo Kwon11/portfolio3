@@ -4,16 +4,18 @@
   <title>Chan The Man Can</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
   <link rel="stylesheet" href="assets/css/main.css">
+  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
 
 
-<body>
+<body id="top">
 
 
-  <header>
+  <header id="header">
     <div class="inner">
-      <a href="#" class="portrait avatar"><img src="pictureOfMe" alt=""/></a>
+      <a href="#" class="image avatar"><img src="assets/images/me.jpg" alt=""/></a>
       <h1>I am Chan Kwon,<br />
       a Full-Stack Developer <br />
       in the Bay. </h1>
@@ -22,8 +24,8 @@
 
   <div id="main">
 
-    <section id="AboutSection">
-      <header class="sectionHeader">
+    <section id="one">
+      <header class="major">
         <h2>About Chan<br />
         </h2>
       </header>
@@ -31,63 +33,77 @@
       <p>I have worked on full-scale applications and continue to acquire more frameworks and languages as they pertain to the projects I work on. I am intimately familiar with RESTful API's, continuous deployment, and other best standards/practices</p>
     </section>
 
-    <section id="ProjectSection">
+    <section id="two">
       <h2>Most Recent Applications</h2>
-      <div class="SAME1">
+      <div class="row">
 
-        <article class="Project">
-          <a href="SCREENSHOTstackBear" class="">
-            <img src="SCREENSHOTstackBear" alt=""/>
+        <article class="6u 12u$(xsmall) work-item">
+          <a href="BIGGERIMAGE" class="image fit thumb">
+            <img src="assets/images/StackBear.jpg" alt=""/>
           </a>
           <h3>StackBear</h3>
-          <h5>React, Node/Express, File System, MySQL, Angular, Vue </h5>
+          <h5>React, Node/Express, File System, MySQL, Angular, Vue, Mocha, Chai </h5>
           <p>Project-Initializer</p>
           <p>
-            <br><br>
-            <a href="LINKTOPROJECT" target="_blank" class="">Details</a>
-            <a href="LINKTOGITHUB" target="_blank" class="">GitHub</a>
+            <br>
+            <a href="LINKTOPROJECT" target="_blank" class="button icon fa-angellist">Details</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="LINKTOGITHUB" target="_blank" class="button icon fa-github">GitHub</a>
           </p>
         </article>
 
-        <article class="Project">
-          <a href="SCREENSHOTstackBear" class="">
-            <img src="SCREENSHOTstackBear" alt=""/>
+        <article class="6u$ 12u$(xsmall) work-item">
+          <a href="BIGGERIMAGE" class="image fit thumb">
+            <img src="assets/images/Colorize.jpg" alt=""/>
           </a>
-          <h3>StackBear</h3>
-          <h5>React, Node/Express, File System, MySQL, Angular, Vue </h5>
-          <p>Project-Initializer</p>
+          <h3>Colorize</h3>
+          <h5>React, Node/Express, MongoDB, Mocha, Chai</h5>
+          <p>HTML Color Pallette Picker</p>
           <p>
-            <br><br>
-            <a href="LINKTOPROJECT" target="_blank" class="">Details</a>
-            <a href="LINKTOGITHUB" target="_blank" class="">GitHub</a>
+            <br>
+            <a href="LINKTOPROJECTANGEL" target="_blank" class="button icon fa-angellist">Details</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="LINKTOGITHUB" target="_blank" class="button icon fa-github">GitHub</a>
           </p>
         </article>
 
-        <article class="Project">
-          <a href="SCREENSHOTstackBear" class="">
-            <img src="SCREENSHOTstackBear" alt=""/>
+        <article class="6u 12u$(xsmall) work-item">
+          <a href="SCREENSHOTstackBear" class="image fit thumb">
+            <img src="assets/images/To-Do-Application.jpg" alt=""/>
           </a>
-          <h3>StackBear</h3>
-          <h5>React, Node/Express, File System, MySQL, Angular, Vue </h5>
-          <p>Project-Initializer</p>
+          <h3>Simple-Do</h3>
+          <h5>React, Node/Express, MongoDB</h5>
+          <p>Basic To-Do Application with user accounts</p>
           <p>
-            <br><br>
-            <a href="LINKTOPROJECT" target="_blank" class="">Details</a>
-            <a href="LINKTOGITHUB" target="_blank" class="">GitHub</a>
+            <br>
+            <a href="LINKTOPROJECT" target="_blank" class="button icon fa-angellist">Details</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="LINKTOGITHUB" target="_blank" class="button icon fa-github">GitHub</a>
           </p>
         </article>
+        <article class="6u$ 12u$(xsmall) work-item">
+          <a href="SCREENSHOTstackBear" class="image fit thumb">
+            <img src="assets/images/To-Do-Application.jpg" alt=""/>
+          </a>
+          <h3>Simple-Do</h3>
+          <h5>React, Node/Express, MongoDB</h5>
+          <p>Basic To-Do Application with user accounts</p>
+          <p>
+            <br>
+            <a href="LINKTOPROJECT" target="_blank" class="button icon fa-angellist">Details</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="LINKTOGITHUB" target="_blank" class="button icon fa-github">GitHub</a>
+          </p>
+        </article>
+
 
       </div>
     </section>
 
-    <section id="Contact">
+    <section id="three">
       <h2>Contact</h2>
       <p>If you'd like to contact me, you can reach me through</p>
-      <div class="SAME1">
-        <div class="">
+      <div class="row">
+        <div class="4u$ 12u$(small)">
           <ul class="labeled-icons">
             <li>
-              <h3 class="">
+              <h3 class="icon fa-envelop-o">
                 <span class="label">Email</span>
               </h3>
               <a href="mailto:Chan.Kwon117@gmail.com">Chan.Kwon117@gmail.com</a>
@@ -102,14 +118,14 @@
   <footer id="footer">
     <div class="inner">
       <ul class="icons">
-        <li><a href="" target="_blank" class="">
+        <li><a href="" target="_blank" class="icon fa-linkedin">
           <span class="label">LinkedIn</span></a></li>
-        <li><a href="" target="_blank" class="">
-          <span class="label">LinkedIn</span></a></li>
-        <li><a href="" target="_blank" class="">
-          <span class="label">LinkedIn</span></a></li>
-        <li><a href="" target="_blank" class="">
-          <span class="label">LinkedIn</span></a></li>
+        <li><a href="" target="_blank" class="icon fa-github">
+          <span class="label">GitHub</span></a></li>
+        <li><a href="" target="_blank" class="icon fa-file-pdf-o">
+          <span class="label">Resume</span></a></li>
+        <li><a href="" target="_blank" class="icon fa-envelope-o">
+          <span class="label">Email</span></a></li>
       </ul>
       <ul class="copyright">
         <li>&copy; Chan Kwon</li><li><a href="http://chanthemancan.com">ChanTheManCan.com</a></li>
@@ -117,7 +133,13 @@
     </div>
   </footer>
 
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.poptrox.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 
+  <script src="assets/js/test.js"></script>
 </body>
 
 </html>
