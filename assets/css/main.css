@@ -1,5 +1,5 @@
 @import url("font-awesome.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
   html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
@@ -1558,8 +1558,8 @@
     }
 
   body, input, select, textarea {
-    color: #a2a2a2;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #636262;
+    font-family: "Roboto", Helvetica, sans-serif;
     font-size: 16pt;
     font-weight: 400;
     line-height: 1.75em;
@@ -1594,8 +1594,9 @@
     margin: 0 0 2em 0;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    color: #787878;
+  h1, h2, h4, h5, h6 {
+    color: #636262;
+    text-decoration: underline;
     font-weight: 400;
     line-height: 1em;
     margin: 0 0 1em 0;
@@ -1629,6 +1630,7 @@
   h5 {
     font-size: 0.9em;
     line-height: 1.5em;
+    text-decoration: none;
   }
 
   h6 {
@@ -2512,10 +2514,11 @@
     }
 
     #header h1 {
-      color: rgba(255, 255, 255, 0.5);
+      color: rgba(255, 255, 255, 0.8);
       font-size: 1.35em;
       line-height: 1.75em;
       margin: 0;
+      text-decoration: none;
     }
 
     #header .image.avatar {
@@ -2530,11 +2533,11 @@
   }
 
     #footer .icons a {
-      color: rgba(255, 255, 255, 0.4);
+      color: rgba(255, 255, 255, 0.8);
     }
 
   #footer .copyright {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 0.8em;
     list-style: none;
     margin: 1em 0 0 0;
